@@ -47,4 +47,37 @@ body {
     width: 100%;
 }
 
-/* ======= Header Section/Seção do cabeçalho ======= */
+/* ======= Header Section/Seção do Cabeçalho ======= */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ======= Home Section/Seção Inicial ======= */
+/* ======= Shop Section/Seção do Shop ======= */
+/* ======= Single Section/Seção ======= */
