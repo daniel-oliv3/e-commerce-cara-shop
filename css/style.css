@@ -70,6 +70,13 @@ body {
 
 #navbar li a {
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+#navbar li a:hover {
+    color: #088178;
 }
 
 
@@ -81,3 +88,38 @@ body {
 /* ======= Home Section/Seção Inicial ======= */
 /* ======= Shop Section/Seção do Shop ======= */
 /* ======= Single Section/Seção ======= */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Responsive/Responsividade ======= */
+@media (max-width: 991px){
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    
+}
+
+@media (max-width: 360px){
+
+    html {
+        font-size: 50%;
+    }
+}
