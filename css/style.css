@@ -24,3 +24,27 @@ h4 {
     font-size: 20px;
     color: #222;
 }
+
+h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* ======= Header Section/Seção do cabeçalho ======= */
