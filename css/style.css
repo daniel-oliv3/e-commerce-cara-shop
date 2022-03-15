@@ -97,7 +97,54 @@ body {
 
 
 
-/* ======= Home Section/Seção Inicial ======= */
+/* ======= Home Page Section/Seção da página inicial ======= */
+#hero {
+    background-image: url("../img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #088178;
+}
+
+#hero button {
+    background-image: url(../img/button.png);
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======= Shop Section/Seção do Shop ======= */
 /* ======= Single Section/Seção ======= */
 
