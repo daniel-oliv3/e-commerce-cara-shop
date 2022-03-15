@@ -137,6 +137,13 @@ body {
 
 
 /* ======= Featured Section/Seção em destaque ======= */
+#featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #featured .fe-box {
     width: 180px;
     text-align: center;
@@ -151,7 +158,13 @@ body {
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.01);
 }
 
+#fatured .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 #featured .fe-box h6 {
+    display: inline-block;
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
