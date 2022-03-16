@@ -130,6 +130,10 @@ body {
 }
 
 
+#close {
+    display: none;
+}
+
 
 /* ======= Home Page Section/Seção da página inicial ======= */
 #hero {
@@ -627,6 +631,7 @@ footer .copyright p span {
     }
 
     #close {
+        display: initial;
         position: absolute;
         top: 30px;
         left: 30px;
@@ -634,6 +639,9 @@ footer .copyright p span {
         font-size: 24px;
     }
     
+    #lg-bag {
+        display: none;
+    }
     
 }
 
